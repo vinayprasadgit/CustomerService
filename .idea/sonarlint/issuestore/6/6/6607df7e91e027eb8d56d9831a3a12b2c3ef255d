@@ -1,0 +1,19 @@
+
+J
+java:S3740."/Provide the parametrized type for this generic.(Á÷Û‰ùÿÿÿÿ
+[
+java:S1854."@Remove this useless assignment to local variable "customerList".(Á÷Û‰ùÿÿÿÿ
+U
+java:S1161":Add the "@Override" annotation above this method signature(ş³‚”ûÿÿÿÿ
+p
+java:S1989"ZHandle the following exception that could be thrown by "parseLong": NumberFormatException.(ËÚóƒ
+t
+java:S1989"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(»¬ÚÂøÿÿÿÿ
+w
+java:S1989)"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(ãìÄ
+w
+java:S19892"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(ãìÄ
+s
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(âî¤ ùÿÿÿÿ
+n
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(¶‰ÀŠ
