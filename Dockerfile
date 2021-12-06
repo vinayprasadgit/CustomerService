@@ -1,4 +1,4 @@
 FROM tomcat:9-alpine
 ADD target/*.war /usr/local/tomcat/webapps/
-RUN value=`cat conf/server.xml` && echo "${value//8080/8050}" >| conf/server.xml
+EXPOSE 8080
 CMD ["catalina.sh","run"]
