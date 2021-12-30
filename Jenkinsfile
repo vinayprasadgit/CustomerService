@@ -4,5 +4,12 @@
     parameters{
       string(name:'repoUrl',defaultValue:'',description:'Repository Url')
     }
+    stages{
+      stage("Getting Repo"){
+        steps{
+          jenkinsJava params.repoUrl
+        }
+      }
+    }  
   }
-jenkinsJava params.repoUrl
+
