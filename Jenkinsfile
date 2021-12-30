@@ -7,9 +7,8 @@
     stages{
       stage("Getting Repo"){
         steps{
-          jenkinsJava params.repoUrl
+          jenkinsJava(params.repoUrl)
         }
       }
     }  
   }
-
