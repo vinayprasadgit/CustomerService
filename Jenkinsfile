@@ -1,2 +1,7 @@
 @Library('sampleSharedLib') _
-jenkinsJava 'https://github.com/vinayprasadgit/CustomerService.git'
+pipeline{
+  parameters{
+    String(name:'repoUrl',defaultValue:'',description:'Repository Url')
+  }
+}
+jenkinsJava params.repoUrl
